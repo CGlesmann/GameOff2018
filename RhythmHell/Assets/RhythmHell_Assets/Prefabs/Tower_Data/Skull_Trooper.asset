@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561652ec3ae24fb4f98f5ec60232be57, type: 3}
+  m_Name: Skull_Trooper
+  m_EditorClassIdentifier: 
+  towerSprite: {fileID: 21300000, guid: ed6d2074f7fd3634d926524d9958c99a, type: 3}
+  towerName: Skull Trooper
+  towerDescription: A standard bone troop, good for close combat.
+  towerCost: 25
+  moveVector: {x: 2.1, y: 0, z: 0}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  stopsEnemies: 1
+  enemyCapacity: 0
+  towerHealth: 110
+  towerDamage: 1.75
+  towerAttackSpeed: 0.9
+  towerKnockBackStrength: 0
+  towerAStyle: 0
+  towerRange: 1
+  canAttackWhileMoving: 0
+  rangeAttackPrefab: {fileID: 0}
+  shootAngle: {x: 1, y: 0, z: 0}
+  bulletMoveVector: {x: 0, y: 0, z: 0}
+  bulletPositionOffset: {x: 0, y: 0, z: 0}
+  attackSound: {fileID: 8300000, guid: ca9be0c2980248647bc455a8472d3525, type: 3}
+  damageSound: {fileID: 8300000, guid: ccfb189f10c4abc4184e4ce790a07c8b, type: 3}
+  tags: 00000000

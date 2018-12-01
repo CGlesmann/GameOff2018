@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a3a2903f9956548b2d9de0c10b33d8, type: 3}
+  m_Name: Medic_Troop
+  m_EditorClassIdentifier: 
+  moneyReward: 10
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  moveSpeed: {x: -1.2, y: 0, z: 0}
+  canPassTowers: 0
+  eTarget: 1
+  maxHealth: 45
+  enemyDamage: -2.5
+  enemyAttackSpeed: 1.5
+  canAttackWhileMoving: 0
+  enemyAttackStyle: 0
+  shootAngle: {x: -1, y: 0, z: 0}
+  enemyRange: 3.77
+  splashRadius: 0
+  rangeAttackPrefab: {fileID: 1726906436404992, guid: d58fa221af4892b4dafe696b8cd53296,
+    type: 2}
+  bulletMoveVector: {x: -6, y: 0, z: 0}
+  bulletPositionOffset: {x: 0, y: 0, z: 0}
+  attackSound: {fileID: 8300000, guid: e49d519ae8372e7438269679572f4d14, type: 3}
+  eAttackTags: 

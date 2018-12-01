@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561652ec3ae24fb4f98f5ec60232be57, type: 3}
+  m_Name: HellSlave
+  m_EditorClassIdentifier: 
+  towerSprite: {fileID: 21300000, guid: 2cdb44b13dea4dd43b55be7056d5fc4f, type: 3}
+  towerName: Hell Slave
+  towerDescription: This weak creature will run forward and kill anything in its path,
+    unless chained to a Slave Master.
+  towerCost: 25
+  moveVector: {x: 1.25, y: 0, z: 0}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  stopsEnemies: 1
+  enemyCapacity: 0
+  towerHealth: 105
+  towerDamage: 2.75
+  towerAttackSpeed: 1
+  towerKnockBackStrength: 0
+  towerAStyle: 0
+  towerRange: 1
+  canAttackWhileMoving: 0
+  rangeAttackPrefab: {fileID: 0}
+  shootAngle: {x: 1, y: 0, z: 0}
+  bulletMoveVector: {x: 0, y: 0, z: 0}
+  bulletPositionOffset: {x: 0, y: 0, z: 0}
+  attackSound: {fileID: 8300000, guid: e9051229a0f153b4896cb51f4d90b935, type: 3}
+  damageSound: {fileID: 8300000, guid: 3df5120be136c994eafed36c7fae8d83, type: 3}
+  tags: 01000000

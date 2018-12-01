@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a3a2903f9956548b2d9de0c10b33d8, type: 3}
+  m_Name: Rocket_Troop
+  m_EditorClassIdentifier: 
+  moneyReward: 10
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  moveSpeed: {x: -1.2, y: 0, z: 0}
+  canPassTowers: 0
+  eTarget: 0
+  maxHealth: 85
+  enemyDamage: 12
+  enemyAttackSpeed: 2
+  canAttackWhileMoving: 0
+  enemyAttackStyle: 2
+  shootAngle: {x: 0, y: 0, z: 0}
+  enemyRange: 3
+  splashRadius: 0.5
+  rangeAttackPrefab: {fileID: 1726906436404992, guid: cd5dd2431147de343a28aa28f609ea5d,
+    type: 2}
+  bulletMoveVector: {x: -6, y: 0, z: 0}
+  bulletPositionOffset: {x: -0.3753, y: 0.273, z: 0}
+  attackSound: {fileID: 8300000, guid: 693ec49b9147b1f44b3cc4e28122a10c, type: 3}
+  eAttackTags: 01000000

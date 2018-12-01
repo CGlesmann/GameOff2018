@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561652ec3ae24fb4f98f5ec60232be57, type: 3}
+  m_Name: SlaveMaster
+  m_EditorClassIdentifier: 
+  towerSprite: {fileID: 21300000, guid: f64f5b9335e78d444bfd4c039fb83728, type: 3}
+  towerName: Slave Master
+  towerDescription: This demon will harness up to 5 Hell slaves and keep them from
+    just running off.
+  towerCost: 35
+  moveVector: {x: 0, y: 0, z: 0}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  stopsEnemies: 1
+  enemyCapacity: 0
+  towerHealth: 90
+  towerDamage: 0
+  towerAttackSpeed: 0
+  towerKnockBackStrength: 0
+  towerAStyle: 3
+  towerRange: 0
+  canAttackWhileMoving: 0
+  rangeAttackPrefab: {fileID: 0}
+  shootAngle: {x: 1, y: 0, z: 0}
+  bulletMoveVector: {x: 0, y: 0, z: 0}
+  bulletPositionOffset: {x: 0, y: 0, z: 0}
+  attackSound: {fileID: 8300000, guid: 5a1f2c057f01b9849a4d0f4fb39aa622, type: 3}
+  damageSound: {fileID: 8300000, guid: 3df5120be136c994eafed36c7fae8d83, type: 3}
+  tags: 01000000

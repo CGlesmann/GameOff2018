@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - EndLine
+  - Enemy
+  - RhythmKey
+  - Turret Button
+  - HellSlave
+  - StartLine
+  - TimerButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - TowerTiles
+  - Enemies
+  - EndLine
+  - PlayerTowers
+  - RhythmKeys
+  - BuildLanes
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemies
+    uniqueID: 1604649103
+    locked: 0
+  - name: GUI
+    uniqueID: 4033813711
+    locked: 0
