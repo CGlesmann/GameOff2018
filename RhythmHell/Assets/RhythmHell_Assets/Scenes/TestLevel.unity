@@ -1256,11 +1256,22 @@ Prefab:
     - target: {fileID: 114180493099999484, guid: 6e0b5f5e747228d46a9a00eba629c02e,
         type: 2}
       propertyPath: gameStartBuffer
-      value: 3
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 82710123900033650, guid: 6e0b5f5e747228d46a9a00eba629c02e,
         type: 2}
       propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114180493099999484, guid: 6e0b5f5e747228d46a9a00eba629c02e,
+        type: 2}
+      propertyPath: sfxPlayer
+      value: 
+      objectReference: {fileID: 1002281966288864, guid: 950b1c74f9d770d4f9c79529a16ae414,
+        type: 2}
+    - target: {fileID: 82710123900033650, guid: 6e0b5f5e747228d46a9a00eba629c02e,
+        type: 2}
+      propertyPath: Priority
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

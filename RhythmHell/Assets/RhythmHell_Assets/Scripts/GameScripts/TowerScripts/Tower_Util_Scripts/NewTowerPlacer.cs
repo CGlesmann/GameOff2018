@@ -66,7 +66,7 @@ public class NewTowerPlacer : MonoBehaviour {
                 manager.money -= (int)buildTower.GetComponent<Tower>().tStats.towerCost;
 
                 // Deactivating if not enough money
-                if (manager.money < 50)
+                if (manager.money < (int)buildTower.GetComponent<Tower>().tStats.towerCost)
                 {
                     gameObject.SetActive(false);
                 }

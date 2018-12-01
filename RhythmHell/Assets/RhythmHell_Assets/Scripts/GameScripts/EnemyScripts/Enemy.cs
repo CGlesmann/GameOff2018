@@ -251,7 +251,10 @@ public class Enemy : MonoBehaviour {
 
     private void PlaySound(AudioClip aClip, float delay = 0f)
     {
+        GameObject.Find("GameManager").GetComponent<GameManager>().PlaySoundFX(aClip);
+        /*
         aSource.clip = aClip;
         aSource.PlayDelayed(delay);
+        */
     }
 }

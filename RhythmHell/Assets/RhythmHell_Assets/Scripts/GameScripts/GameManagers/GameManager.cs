@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour {
     public float gameStartBuffer = 60f;
     public int money;
     public string levelSelectionScene;
+    public GameObject sfxPlayer;
 
     private float startTimer = 0f;
 
@@ -134,6 +135,15 @@ public class GameManager : MonoBehaviour {
             }
             */
         }
+    }
+
+    public void PlaySoundFX(AudioClip aClip)
+    {
+        SoundPlayer newPlayer = Instantiate(sfxPlayer).GetComponent<SoundPlayer>();
+        newPlayer.playClip = aClip;
+        newPlayer.SetUp();
+
+        return;
     }
 
     public void SetVictory()

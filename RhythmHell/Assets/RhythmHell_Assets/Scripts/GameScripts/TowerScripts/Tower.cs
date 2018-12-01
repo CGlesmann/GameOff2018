@@ -73,8 +73,11 @@ public class Tower : MonoBehaviour {
         // Playing the Damage Sound
         if (tStats.damageSound != null && GetComponent<AudioSource>() != null)
         {
+            GameObject.Find("GameManager").GetComponent<GameManager>().PlaySoundFX(tStats.damageSound);
+            /*
             GetComponent<AudioSource>().clip = tStats.damageSound;
             GetComponent<AudioSource>().Play();
+            */
         }
     }
 
@@ -164,8 +167,11 @@ public class Tower : MonoBehaviour {
             // Play the Attack Sound
             if (tStats.attackSound != null)
             {
+                GameObject.Find("GameManager").GetComponent<GameManager>().PlaySoundFX(tStats.attackSound);
+                /*
                 GetComponent<AudioSource>().clip = tStats.attackSound;
                 GetComponent<AudioSource>().Play();
+                */
             }
 
             return;
@@ -190,8 +196,11 @@ public class Tower : MonoBehaviour {
                     // Play the Attack Sound
                     if (tStats.attackSound != null)
                     {
+                        GameObject.Find("GameManager").GetComponent<GameManager>().PlaySoundFX(tStats.attackSound);
+                        /*
                         GetComponent<AudioSource>().clip = tStats.attackSound;
                         GetComponent<AudioSource>().Play();
+                        */
                     }
                 }
 
